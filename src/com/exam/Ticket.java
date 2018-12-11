@@ -5,15 +5,15 @@ public class Ticket {
 	String destination;
 	int price;
 	int quantity;
+	int sum;
 	public Ticket(String origin, String destination, int price, int quantity){
 		this.origin = origin;
 		this.destination = destination;
 		this.price = price;
 		this.quantity = quantity;	
+		
 	}
-	public int get(){
-		int ticket = 37 * 2;
-		return ticket;
-	}
+	
+
 	
 }
